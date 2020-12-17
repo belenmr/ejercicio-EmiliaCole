@@ -1,0 +1,69 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: url('../img/emilia-home.jpg');
+    background-size: 69%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family: Open Sans;
+}
+
+ul{
+    line-height: 35px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+ul a i{
+    color: black;
+}
+
+h2{
+    margin-top: 250px;
+    font-family: Work Sans;
+    font-weight: 300;
+    margin-left: 35px;
+    letter-spacing: 5px;
+}
+
+h1{
+    margin-top: 300px;
+    font-family: Raleway;
+    font-size: 72px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+/* hover es la propiedad cuando uno pasa el mouse por encima*/
+.fa-twitter:hover{
+    color: lightskyblue;
+}
+
+.fa-facebook-square:hover{
+    color: mediumblue;
+}
+
+.fa-spotify:hover{
+    color: lightgreen;
+}
+
+.fa-apple:hover{
+    color: grey;
+}
+
+.fa-amazon:hover{
+    color: orange;
+}
+
+.fa-instagram:hover{
+    color: red;
+}

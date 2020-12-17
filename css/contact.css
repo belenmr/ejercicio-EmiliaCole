@@ -1,0 +1,87 @@
+body{
+    font-family: Open Sans;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul.menu{
+    margin-top: 40px;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul.menu li {
+    display: inline;
+    padding: 0 10px;
+    border-left: 1px solid black;
+}
+
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+
+ul.redes{
+    text-align: right;
+    margin-right: 10px;
+}
+
+h1{
+    font-size: 72px;
+    font-family: Raleway;
+}
+
+h2{
+    font-family: Raleway;
+    font-size: 35px;
+}
+
+h4{
+    color: rgb(33, 156, 150);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.dato{
+    color: rgb(71, 71, 71);
+}
+
+.dato b{
+    color: black;
+}
+
+.fa-twitter:hover{
+    color: lightskyblue;
+}
+
+.fa-facebook-square:hover{
+    color: mediumblue;
+}
+
+.fa-spotify:hover{
+    color: lightgreen;
+}
+
+.fa-apple:hover{
+    color: grey;
+}
+
+.fa-amazon:hover{
+    color: orange;
+}
+
+.fa-instagram:hover{
+    color: red;
+}

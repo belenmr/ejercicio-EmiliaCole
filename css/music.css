@@ -1,0 +1,103 @@
+body{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    font-family: Open Sans;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+
+ul.menu{
+    margin-top: 40px;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+    font-weight: bold;
+}
+
+ul.menu a{
+    color: rgb(71, 71, 71);
+}
+
+ul.menu li {
+    display: inline;
+    padding: 0 10px;
+    border-left: 1px solid black;
+}
+
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+
+ul.redes{
+    text-align: right;
+    margin-right: 10px;
+}
+
+ul.redes a{
+    color: black;
+}
+
+h1{
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+h4{
+    margin: 20px 0;
+}
+
+ul.links a{
+    color: rgb(124 , 124, 124);
+}
+
+ul.links a:hover{
+    color: red;
+}
+
+h2.album{
+    margin-top: 70px;
+}
+
+ol{
+    margin-top: 20px;
+    line-height: 35px;
+    list-style-type: decimal-leading-zero;
+}
+
+h2{
+    margin-top: 65px;
+    text-transform: uppercase;
+    font-family: Work Sans;
+    font-weight: 600;
+}
+
+.fa-twitter:hover{
+    color: lightskyblue;
+}
+
+.fa-facebook-square:hover{
+    color: mediumblue;
+}
+
+.fa-spotify:hover{
+    color: lightgreen;
+}
+
+.fa-apple:hover{
+    color: grey;
+}
+
+.fa-amazon:hover{
+    color: orange;
+}
+
+.fa-instagram:hover{
+    color: red;
+}
